@@ -8,7 +8,7 @@
 /* PAGINATION */
 
 .container .pagionation_box{
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
     height: auto;
 
@@ -634,7 +634,7 @@
     flex-direction: column;
 }
 
-.container .headphones-top{
+.headphones_frame .container .headphones-top{
     width: 100%;
     height: 40px;
     
@@ -643,7 +643,7 @@
     align-items: center;
 }
 
-.headphones-top span{
+.headphones_frame .headphones-top span{
     color: rgba(4, 30, 66, 1);
 
     font-family: "Jost";
@@ -653,7 +653,7 @@
     line-height: 40px;
 }
 
-.headphones-top a{
+.headphones_frame .headphones-top a{
     color: rgba(4, 30, 66, 1);
 
     font-family: "Jost";
@@ -663,14 +663,11 @@
     line-height: 22px;
 }
 
-a .bottom-line{
-    margin-top: 3px;
-    width: 35px;
-    height: 1px;
-    background: rgba(4, 30, 66, 1);
+.container .headphones-top a:hover{
+    border-bottom: 2px solid rgba(4, 30, 66, 1);
 }
 
-.container .headphones-wrapper{
+.headphones_frame .container .headphones-wrapper{
     margin-top: 35px;
     width: 100%;
     height: 370px;
@@ -679,7 +676,7 @@ a .bottom-line{
     flex-direction: row;
 }
 
-.headphones-wrapper .box-left{
+.headphones_frame .headphones-wrapper .box-left{
     width: 660px;
     height: 370px;
 
@@ -690,7 +687,7 @@ a .bottom-line{
     flex-direction: row;
 }
 
-.box-left .content-box{
+.headphones_frame .box-left .content-box{
     margin-left: 45px;
     width: 161px;
     height: auto;
@@ -701,7 +698,7 @@ a .bottom-line{
     margin-bottom: 40px;
 }
 
-.content-box span{
+.headphones_frame .content-box span{
     color: rgba(4, 30, 66, 1);
     font-family: "Jost";
     font-style: normal;
@@ -710,7 +707,7 @@ a .bottom-line{
     line-height: 22px;
 }
 
-.content-box p{
+.headphones_frame .content-box p{
     margin: 10px 0;
     color: rgba(4, 30, 66, 1);
     font-family: "Jost";
@@ -720,7 +717,7 @@ a .bottom-line{
     line-height: 38px;
 }
 
-.content-box a{
+.headphones_frame .content-box a{
     color: rgba(4, 30, 66, 1);
     font-family: "Jost";
     font-style: normal;
@@ -729,20 +726,20 @@ a .bottom-line{
     line-height: 22px;
 }
 
-.headphones-wrapper .image-box{
+.headphones_frame .headphones-wrapper .image-box{
     margin-left: 90px;
     margin-top: 30px;
     width: 322px;
     height: auto;
 }
 
-.headphones-wrapper .box-right{
+.headphones_frame .headphones-wrapper .box-right{
     width: 618px;
     height: auto;
     margin-left: 32px;
 }
 
-.box-right .right-top{
+.headphones_frame .box-right .right-top{
     width: 100%;
     height: 170px;
 
@@ -751,7 +748,7 @@ a .bottom-line{
     justify-content: space-between;
 }
 
-.box-right .top-box{
+.headphones_frame .box-right .top-box{
     width: 293px;
     height: auto;
 
@@ -762,7 +759,7 @@ a .bottom-line{
     background: rgba(243, 245, 246, 1);
 }
 
-.top-box .items-text{
+.headphones_frame .top-box .items-text{
     margin-left: 35px;
     margin-top: 30px;
     width: 73px;
@@ -772,7 +769,7 @@ a .bottom-line{
     flex-direction: column;
 }
 
-.items-text span{
+.headphones_frame .items-text span{
     color: rgba(4, 30, 66, 1);
     font-family: "Jost";
     font-style: normal;
@@ -784,7 +781,7 @@ a .bottom-line{
     flex-direction: row;
 }
 
-.items-text p{
+.headphones_frame .items-text p{
     color: rgba(98, 105, 116, 1);
     font-family: "Jost";
     font-style: normal;
@@ -793,21 +790,21 @@ a .bottom-line{
     line-height: 22px;
 }
 
-.top-box .items-image{
+.headphones_frame .top-box .items-image{
     width: 85.6px;
     height: 107px;
     margin-left: 68px;
     margin-top: 39px;
 }
 
-.top-box .items-image-on-ear{
+.headphones_frame .top-box .items-image-on-ear{
     width: 99.67px;
     height: 103px;
     margin-left: 60px;
     margin-top: 39px;
 }
 
-.box-right .right-butt{
+.headphones_frame .box-right .right-butt{
     margin-top: 28px;
     width: 100%;
     height: 170px;
@@ -817,7 +814,7 @@ a .bottom-line{
     justify-content: space-between;
 }
 
-.right-butt .top-box-butt{
+.headphones_frame .right-butt .top-box-butt{
     position: relative;
     width: 293px;
     height: auto;
@@ -829,7 +826,7 @@ a .bottom-line{
     background: rgba(243, 245, 246, 1);
 }
 
-.right-butt .top-box-butt .items-text-butt{
+.headphones_frame .right-butt .top-box-butt .items-text-butt{
     margin-left: 35px;
     margin-top: 30px;
     width: 133.67px;
@@ -839,7 +836,7 @@ a .bottom-line{
     flex-direction: column;
 }
 
-.top-box-butt .items-text-butt-blue{
+.headphones_frame .top-box-butt .items-text-butt-blue{
     margin-left: 35px;
     margin-top: 30px;
     width: 188.78px;
@@ -849,7 +846,7 @@ a .bottom-line{
     flex-direction: column;
 }
 
-.items-text-butt span{
+.headphones_frame .items-text-butt span{
     color: rgba(4, 30, 66, 1);
     font-family: "Jost";
     font-style: normal;
@@ -861,7 +858,7 @@ a .bottom-line{
     flex-direction: row;
 }
 
-.items-text-butt p{
+.headphones_frame .items-text-butt p{
     color: rgba(98, 105, 116, 1);
     font-family: "Jost";
     font-style: normal;
@@ -870,7 +867,7 @@ a .bottom-line{
     line-height: 22px;
 }
 
-.items-text-butt-blue span{
+.headphones_frame .items-text-butt-blue span{
     color: rgba(4, 30, 66, 1);
     font-family: "Jost";
     font-style: normal;
@@ -882,7 +879,7 @@ a .bottom-line{
     flex-direction: row;
 }
 
-.items-text-butt-blue p{
+.headphones_frame .items-text-butt-blue p{
     color: rgba(98, 105, 116, 1);
     font-family: "Jost";
     font-style: normal;
@@ -891,7 +888,7 @@ a .bottom-line{
     line-height: 22px;
 }
 
-.top-box-butt .items-image-fitness{
+.headphones_frame .top-box-butt .items-image-fitness{
     position: absolute;
     width: 146.57px;
     height: 67px;
@@ -899,10 +896,179 @@ a .bottom-line{
     margin-left: 125px;
 }
 
-.top-box-butt .items-image-blue{
+.headphones_frame .top-box-butt .items-image-blue{
     position: absolute;
     width: 130px;
     height: 72px;
     margin-top: 81px;
     margin-left: 140px;
 }
+
+/* TV section */
+
+.home_page .tv_frame{
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tv_frame .container{
+    flex-direction: column;
+}
+
+.tv_frame .container .tv_top{
+    width: 100%;
+    height: 40px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tv_frame .container .tv_top div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tv_frame .tv_top span{
+    color: rgba(4, 30, 66, 1);
+
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.tv_frame .tv_top a{
+    color: rgba(4, 30, 66, 1);
+
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+
+    margin-left: 30px;
+}
+
+.tv_frame .tv_top a:hover{
+    border-bottom: 2px solid rgba(4, 30, 66, 1);
+}
+
+.tv_frame .container .tv_wrapper{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.tv_frame .tv_wrapper .tv_box{
+    width: 260px;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.tv_frame .tv_box .tv_image{
+    width: 250px;
+    height: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv_frame .tv_context .profuct_title{
+    color: rgba(98, 105, 116, 1);
+
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.tv_frame .tv_context .product_desc{
+    color: rgba(4, 30, 66, 1);
+    margin-top: 7px;
+    height: 56px;
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    overflow: hidden;
+}
+
+.tv_frame .tv_context .review_box{
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tv_frame .tv_context .review_box img{
+    margin-left: 5px;
+}
+
+.tv_frame .tv_context .review_box span{
+    margin-left: 10px;
+    color: rgba(98, 105, 116, 1);
+
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.tv_frame .tv_context .price_box{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tv_frame .tv_context .price_box strong{
+    color: rgba(4, 30, 66, 1);
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.tv_frame .tv_context .price_box span{
+    color: rgba(98, 105, 116, 1);
+    margin-left: 10px;
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration-line: line-through;
+}
+
+.tv_frame .tv_wrapper .next_prev_box{
+    width: 25px;
+}
+
+.tv_frame .tv_wrapper .next_prev_box img{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+
